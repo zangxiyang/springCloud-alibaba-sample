@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: imsle-provider
+
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: 1235689az
+        server-addr: 47.108.153.65:8848
