@@ -11,6 +11,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-cloud-alibaba-imsle-dependencies</module>
+        <module>spring-cloud-alibaba-consumer</module>
+        <module>spring-cloud-alibaba-provider</module>
     </modules>
     <groupId>com.imsle.cloud</groupId>
     <artifactId>spring-cloud-alibaba-sample</artifactId>

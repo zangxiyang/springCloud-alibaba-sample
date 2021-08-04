@@ -15,6 +15,7 @@ public class NacosController {
 
     @GetMapping("/nacos/{str}")
     public String hello(@PathVariable String str){
+        System.out.println("远程调用了！");
         return "你好nacos：" + str;
     }
 }
